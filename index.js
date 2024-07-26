@@ -1,1 +1,4 @@
-console.log('Hello Git in test mode')
+
+const root = document.getElementById('root');
+
+console.log(root)
