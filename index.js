@@ -2,9 +2,9 @@ import React from "react";
 import ReactDOM from 'react-dom/client'
 
 const App = () => {
-    return <div>
+    return (<div>
         <h1>Raact app with library</h1>
-    </div>
+    </div>)
 }
 
 
