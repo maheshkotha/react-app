@@ -2,10 +2,12 @@
   "name": "react-app",
   "version": "1.0.0",
   "description": "This is react app by mahesh",
-  "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -20,10 +22,11 @@
   "bugs": {
     "url": "https://github.com/maheshkotha/react-app/issues"
   },
-  "homepage": "https://github.com/maheshkotha/react-app#readme",
+  "homepage": "https://maheshkotha.github.io/react-app",
   "devDependencies": {
     "parcel": "^2.12.0",
-    "process": "^0.11.10"
+    "process": "^0.11.10",
+    "gh-pages": "^5.0.0"
   },
   "dependencies": {
     "react": "^18.3.1",
