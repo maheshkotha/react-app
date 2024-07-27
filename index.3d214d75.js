@@ -2960,7 +2960,7 @@ var _clientDefault = parcelHelpers.interopDefault(_client);
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-            children: "Raact app with library"
+            children: "Raact app Updated...."
         }, void 0, false, {
             fileName: "index.js",
             lineNumber: 6,
