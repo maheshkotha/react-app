@@ -1,5 +1,14 @@
+import React from "react";
+import ReactDOM from 'react-dom/client'
 
-const root = document.getElementById('root');
+const App = () => {
+    return <div>
+        <h1>Raact app with library</h1>
+    </div>
+}
 
-root.textContent = "hello git"
-console.log(root)
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(<App />)
+
