@@ -1,3 +1,14 @@
-const heading = React.createElement("h1", {}, "Hello React i'm H1 Element")
+import React from "react";
+import ReactDOM from 'react-dom/client'
+
+const App = () => {
+    return <div>
+        <h1>Raact app with library</h1>
+    </div>
+}
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(heading);
+
+root.render(<App />)
+
