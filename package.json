@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "start": "parcel index.html",
-    "build": "parcel build",
+    "build": "parcel index.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
