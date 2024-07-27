@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 
 const App = () => {
     return (<div>
-        <h1>Raact app with library</h1>
+        <h1>Raact app</h1>
     </div>)
 }
 
