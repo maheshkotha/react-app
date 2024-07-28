@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "This is react app by mahesh",
   "scripts": {
-    "test": "jest",
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
