@@ -2,6 +2,7 @@
   "name": "react-app",
   "version": "1.0.0",
   "description": "This is react app by mahesh",
+  "main": "dist/index.js",
   "scripts": {
     "test": "jest",
     "start": "parcel index.html",
