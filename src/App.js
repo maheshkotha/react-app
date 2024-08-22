@@ -1,11 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Main from './Components/Main';
+import ToggleTheme from './Features/ToggleTheme';
+import { ThemeProvider } from './Providers/ThemeProvider';
 
 function App() {
   return (
-    <div className="App">
-      <h1>React Application</h1>
-    </div>
+    <ThemeProvider>
+      <Main />
+    </ThemeProvider>
   );
 }
 
