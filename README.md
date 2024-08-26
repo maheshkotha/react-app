@@ -68,3 +68,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+# React Concepts
+- Hooks (useCallback, useMemo, useRef)
+
+- Hooks (useReducer, useContext)
+
+- Higher order Component and Pure Component
+
+- Error Boundary, React.Lazy Suspence
+
+- React Portal, Model
+
+- useState, useEffect
+
+- Generator Function
+
