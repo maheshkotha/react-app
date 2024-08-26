@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+
+@keyframes shrinkWidth {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}
+
+.shrinking-bar {
+  background-color: #007BFF; /* Example background color */
+  height: 20px; /* Example height */
+  width: 100%;
+  animation: shrinkWidth 3s forwards;
+}
