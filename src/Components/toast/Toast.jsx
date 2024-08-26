@@ -1,7 +1,7 @@
-import React, { useState, useEffect, useRef } from 'react';
-import ShrinkingBar from './ShrinkingBar';
+import React, { useState, useEffect, useRef } from "react";
+import ShrinkingBar from "./ShrinkingBar";
 
-const Toast = ({id, message, duration, onClose, endTime }) => {
+const Toast = ({ id, message, duration, onClose, endTime }) => {
   const [visible, setVisible] = useState(true);
   const timerRef = useRef(null);
 
@@ -30,7 +30,9 @@ const Toast = ({id, message, duration, onClose, endTime }) => {
   return (
     <div style={styles.toastContainer}>
       <div style={styles.toastMessage}>{message}</div>
-      <div onClick={() =>onClose(id)} style={{cursor: 'pointer'}}>X</div>
+      <div onClick={() => onClose(id)} style={{ cursor: "pointer" }}>
+        X
+      </div>
       <ShrinkingBar duration={duration} />
     </div>
   );
@@ -38,22 +40,22 @@ const Toast = ({id, message, duration, onClose, endTime }) => {
 
 const styles = {
   toastContainer: {
-    position: 'relative',
-    bottom: '20px',
-    right: '20px',
-    backgroundColor: '#333',
-    color: '#fff',
-    padding: '10px 20px',
-    borderRadius: '5px',
-    boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
+    position: "relative",
+    bottom: "20px",
+    right: "20px",
+    backgroundColor: "#333",
+    color: "#fff",
+    padding: "10px 20px",
+    borderRadius: "5px",
+    boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
     zIndex: 1000,
     opacity: 0.9,
-    display: 'flex',
-    justifyContent: 'space-between',
-    padding: '0.5rem 1rem'
+    display: "flex",
+    justifyContent: "space-between",
+    padding: "0.5rem 1rem",
   },
   toastMessage: {
-    fontSize: '16px',
+    fontSize: "16px",
   },
 };
 

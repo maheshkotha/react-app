@@ -17,8 +17,6 @@ const ToastButton = () => {
     setToasts((prevToasts) => [...prevToasts, newToast]);
   };
 
-  
-
   const handleClose = (id) => {
     setToasts((prevToasts) => prevToasts.filter((toast) => toast.id !== id));
   };
